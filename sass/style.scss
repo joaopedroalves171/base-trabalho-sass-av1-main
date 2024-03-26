@@ -9,10 +9,6 @@ body{
     align-items: center;
     justify-content: center;
 }
-button{
-    background-color: $color-card;
-
-}
 .div-meio{
-    color: $color-bg;
+    color: var($color-bg);
 }
