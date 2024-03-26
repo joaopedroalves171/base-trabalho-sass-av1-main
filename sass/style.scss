@@ -1,8 +1,8 @@
-@use "variables.scss";
+@use "_variables.scss";
 
 body{
     font-family: "Rubik", sans-serif;
-    background-color: variables.$color-bg;
+    background-color: var($color-bg);
 }
 .div-header{
     display: flex;
@@ -10,5 +10,8 @@ body{
     justify-content: center;
 }
 .div-meio{
-    color: var($color-bg);
+    color: var($color-yellow);
+}
+h1, h2 {
+    text-align: left;
 }
