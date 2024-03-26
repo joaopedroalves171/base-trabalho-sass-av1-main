@@ -1,0 +1,19 @@
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: variables(#080B11);
+}
+
+.div-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.div-meio {
+  color: var(#FFB72D);
+}
+
+h1, h2 {
+  text-align: left;
+}/*# sourceMappingURL=style.css.map */
